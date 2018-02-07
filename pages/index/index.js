@@ -25,7 +25,7 @@ Page({
     getIndexData: function () {
         let that = this;
         util.request(api.IndexUrl).then(function (res) {
-            if (res.code === 200) {
+            if (res.errno === 0) {
                 that.setData({
                     newGoods: res.data.newGoodsList,
                     hotGoods: res.data.hotGoodsList,

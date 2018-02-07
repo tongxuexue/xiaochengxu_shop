@@ -1,4 +1,4 @@
-var NewApiRootUrl = 'http://127.0.0.1:3000/api/';
+var NewApiRootUrl = 'http://123.207.63.142:8360/api/';
 
 module.exports = {
     IndexUrl: NewApiRootUrl + 'index/index', //首页数据接口
